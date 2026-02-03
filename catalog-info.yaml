@@ -9,3 +9,4 @@ spec:
   type: service
   owner: spelluri
   lifecycle: experimental
+  repo: https://github.com/spelluri/GitOps-Jenkins-Project
