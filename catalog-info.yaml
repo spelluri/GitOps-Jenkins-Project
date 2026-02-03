@@ -6,7 +6,7 @@ metadata:
   labels:
     team: devops
   annotations:
-    backstage.io/source-location: url:https://github.com/spelluri/GitOps-Jenkins-Project
+    backstage.io/source-location: url:https://raw.githubusercontent.com/spelluri/GitOps-Jenkins-Project/main/catalog-info.yaml
 spec:
   type: service
   lifecycle: experimental
