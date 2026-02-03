@@ -1,24 +1,11 @@
-apiVersion: backstage.io/v1beta1
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: public-repo
   description: Public demo repo for Backstage
   labels:
     team: devops
-  annotations:
-    backstage.io/source-location: url:https://github.com/spelluri/GitOps-Jenkins-Project
 spec:
   type: service
   lifecycle: experimental
-  owner: group:default/devops
----
-apiVersion: backstage.io/v1beta1
-kind: Group
-metadata:
-  name: devops
-  description: DevOps Team
-spec:
-  type: team
-  profile:
-    displayName: DevOps Team
-  children: []
+  owner: spelluri
