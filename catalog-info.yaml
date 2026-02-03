@@ -5,8 +5,9 @@ metadata:
   description: Public demo repo for Backstage
   labels:
     team: devops
+  annotations:
+    backstage.io/source-location: url:https://github.com/spelluri/GitOps-Jenkins-Project
 spec:
   type: service
-  owner: spelluri
   lifecycle: experimental
-  repo: https://github.com/spelluri/GitOps-Jenkins-Project
+  owner: user:default/spelluri
