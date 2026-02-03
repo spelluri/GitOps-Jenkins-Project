@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: public-repo
+  description: Public demo repo for Backstage
+  labels:
+    team: devops
+spec:
+  type: service
+  owner: spelluri
+  lifecycle: experimental
