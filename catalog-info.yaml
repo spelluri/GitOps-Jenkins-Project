@@ -11,3 +11,14 @@ spec:
   type: service
   lifecycle: experimental
   owner: group:default/devops
+---
+apiVersion: backstage.io/v1beta1
+kind: Group
+metadata:
+  name: devops
+  description: DevOps Team
+spec:
+  type: team
+  profile:
+    displayName: DevOps Team
+  children: []
